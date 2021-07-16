@@ -1,12 +1,12 @@
 # [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
-def flatten(x=[[1,'a',['cat'],2],[[[3]],'dog'],4,5],yeni=[]):
+def flatten(x=[[1,'a',['cat'],2],[[[3]],'dog'],4,5],new=[]):
      for e in x:
         if type(e)== list:
-            flatten(e,yeni)
+            flatten(e,new)
         else:
-            yeni.append(e)
-     return yeni
+            new.append(e)
+     return new
 print(flatten())
 
 
