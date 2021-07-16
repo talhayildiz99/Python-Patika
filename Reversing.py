@@ -1,4 +1,4 @@
-girdi = [[1, 2], [3, 4], [5, 6, 7]]
+l = [[1, 2], [3, 4], [5, 6, 7]]
 def reversing(x):
     a=[]
     b=[]
@@ -6,4 +6,4 @@ def reversing(x):
         a.append(i[::-1])
     b=a[::-1]
     return b
-print(reversing(girdi))
+print(reversing(l))
